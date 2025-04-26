@@ -12,6 +12,20 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // script.js
 
+// script.js
+
+// Smooth scroll for internal anchor links (optional)
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// script.js
+
 const toggleButton = document.getElementById('theme-toggle');
 
 toggleButton.style.position = "fixed";
@@ -32,6 +46,4 @@ toggleButton.addEventListener('click', () => {
     document.querySelector(".container").style.color = isDark ? "#2c3e50" : "#f4f4f4";
     toggleButton.innerText = isDark ? "🌓 Toggle Theme" : "☀️ Toggle Light Mode";
     isDark = !isDark;
-});
-
 });
