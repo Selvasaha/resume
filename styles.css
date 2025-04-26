@@ -1,46 +1,57 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 body {
-    font-family: 'Roboto', sans-serif; /* Changed font */
-    background-color: #f4f7f9; /* Subtle light background for readability */
-    color: #333;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f9;
+    color: #2c3e50;
     margin: 0;
     padding: 20px;
 }
 
 .container {
-    max-width: 900px; /* Wider container for better use of space */
+    max-width: 900px;
     margin: 0 auto;
     background-color: #ffffff;
-    padding: 30px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
-    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
 }
 
 header {
     text-align: center;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #3498db; /* Add a light blue border for header separation */
-    padding-bottom: 15px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #3498db;
 }
 
 h1 {
-    font-size: 3em;
-    color: #2c3e50; /* Darker text for name */
+    font-size: 3rem;
+    color: #2c3e50;
+    margin: 0;
 }
 
 .subtitle {
-    font-size: 1.5em;
-    color: #3498db; /* Blue color for profession */
-    margin-bottom: 15px;
+    font-size: 1.6rem;
+    color: #3498db;
+    font-weight: 500;
+}
+
+.contact-info {
+    margin-top: 15px;
 }
 
 .contact-info p {
-    margin: 5px 0;
-    font-size: 1.1em;
+    margin: 6px 0;
+    font-size: 1.05em;
+    color: #555;
 }
 
 a {
     color: #3498db;
     text-decoration: none;
+    font-weight: 500;
 }
 
 a:hover {
@@ -48,33 +59,44 @@ a:hover {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 h2 {
+    font-size: 1.6em;
     border-bottom: 2px solid #3498db;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
     color: #2c3e50;
 }
 
 ul {
-    list-style-type: disc;
+    list-style: disc;
     padding-left: 20px;
 }
 
 ul li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.projects h3,
+.education h3,
+.experience h3 {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #34495e;
+}
+
+p {
+    line-height: 1.6;
 }
 
 footer {
     text-align: center;
     margin-top: 50px;
-    padding-top: 15px;
+    padding-top: 20px;
     border-top: 1px solid #ddd;
-}
-
-footer p {
-    font-size: 1em;
-    color: #666;
+    color: #777;
+    font-size: 0.95em;
 }
