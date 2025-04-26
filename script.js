@@ -10,9 +10,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Optional: Theme toggle (light/dark mode) setup
-const toggleButton = document.createElement('button');
-toggleButton.innerText = "🌓 Toggle Theme";
+// script.js
+
+const toggleButton = document.getElementById('theme-toggle');
+
 toggleButton.style.position = "fixed";
 toggleButton.style.bottom = "20px";
 toggleButton.style.right = "20px";
@@ -22,7 +23,6 @@ toggleButton.style.border = "none";
 toggleButton.style.background = "#3498db";
 toggleButton.style.color = "white";
 toggleButton.style.cursor = "pointer";
-document.body.appendChild(toggleButton);
 
 let isDark = false;
 
@@ -32,4 +32,6 @@ toggleButton.addEventListener('click', () => {
     document.querySelector(".container").style.color = isDark ? "#2c3e50" : "#f4f4f4";
     toggleButton.innerText = isDark ? "🌓 Toggle Theme" : "☀️ Toggle Light Mode";
     isDark = !isDark;
+});
+
 });
