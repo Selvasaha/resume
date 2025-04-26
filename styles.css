@@ -9,7 +9,9 @@ body {
     margin: 0;
     padding: 20px;
 }
-
+body, .container {
+    transition: all 0.5s ease; /* Smooth transition */
+}
 .container {
     max-width: 900px;
     margin: 0 auto;
