@@ -1,7 +1,7 @@
 # Selvaprakash P
-**Full Stack Developer**
+**Software Engineer**
 
-📍 Coimbatore, Tamilnadu, India  
+📍 Chennai, Tamilnadu, India  
 📧 [selvaprakash0124@gmail.com](mailto:selvaprakash0124@gmail.com)  
 📞 +91 9360712178  
 🌐 [Portfolio](https://selvasaha.github.io/portfolio) | [LinkedIn](https://linkedin.com/in/selvaprakash-p) | [GitHub](https://github.com/selvasaha)
@@ -9,7 +9,7 @@
 ---
 
 ## **Professional Summary**
-Passionate Full Stack Developer with hands-on experience in Python, JavaScript, and web technologies. Skilled in creating efficient and scalable solutions with a focus on problem-solving and innovation. Seeking to leverage technical skills and teamwork in a challenging Python developer role.
+Passionate Software Engineer with hands-on experience in Python, JavaScript, and web technologies. Skilled in creating efficient and scalable solutions with a focus on problem-solving and innovation. Seeking to leverage technical skills and teamwork in a challenging Python developer role.
 
 ---
 
@@ -25,9 +25,16 @@ Passionate Full Stack Developer with hands-on experience in Python, JavaScript, 
 
 ## **Professional Experience**
 
+### Software Engineer Intern  
+**Admindroid**, Chennai, Tamilnadu, India  
+*April 2025 - Present*  
+- Contributing to the development of innovative software solutions.
+- Working with various technologies to build scalable, efficient applications.
+- Collaborating with cross-functional teams to design, develop, and optimize products.
+
 ### Analyst  
 **Objectways Technologies**, Coimbatore, Tamilnadu, India  
-*May 2024 - Present*  
+*May 2024 - March 2025*  
 - Analyzed and annotated AI data across various formats, improving system accuracy.
 - Collaborated with teams to enhance AI quality, handling data management and annotation tasks.
 - Managed data for AI training to ensure relevance and precision in annotations.
